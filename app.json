@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Blume Invest",
+    "slug": "blume-dev",
+    "owner": "blume-invest",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splashscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2436E7"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/3b012d9b-f819-4968-92bd-d598968bd8f7"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.blume-build"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon1.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.liamwelling.blumedev"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b012d9b-f819-4968-92bd-d598968bd8f7"
+      }
+    },
+    "runtimeVersion": "1.0.0"
+  }
+}

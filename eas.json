@@ -1,0 +1,35 @@
+{
+  "cli": {
+    "version": ">= 0.34.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development-simulator": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {
+     
+      "ios": {
+        "appleId": "liam@enginethree.com",
+        "ascAppId": "6467017969",
+        "appleTeamId": "DK5J5H6LJ7"
+      }
+    }
+  }
+}
