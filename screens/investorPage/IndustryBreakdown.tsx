@@ -2,14 +2,12 @@ import { View, Text, StyleSheet, Pressable, Image, Dimensions, ScrollView} from 
 import React, { useRef, useState } from 'react'
 import { useFonts } from "expo-font";
 import AppLoading from "expo-app-loading";
-import { TouchableOpacity } from 'react-native-gesture-handler';
 import { VictoryPie } from 'victory-native';
 import chroma from 'chroma-js'
 import {
   wrapScrollView,
   useScrollIntoView,
 } from 'react-native-scroll-into-view';
-import { Button } from 'react-native-paper';
 
 const CustomScrollView = wrapScrollView(ScrollView);
 

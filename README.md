@@ -20,7 +20,16 @@ This project was built using the following technologies:
 
 - **[TypeScript](https://www.typescriptlang.org/)**: A statically typed superset of JavaScript that adds optional types to the language. It helps catch errors early in the development stage.
 
+## Dependencies
 
+This project uses the following dependencies:
+
+- **Zustand**: A small, fast and scaleable bear necessities for state management in React.
+- **React Native Reanimated**: A React Native library to manage animations.
+- **React Hook Form**: A performant, flexible and extensible forms with easy-to-use validation.
+- **Yup**: A JavaScript schema builder for value parsing and validation.
+- **Victory Charts**: A collection of composable React components for building interactive data visualizations.
+- **RevenueCat**: In-app subscriptions made easy.
 
 
 
