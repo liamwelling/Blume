@@ -6,7 +6,7 @@
   
 ## BLUME invest: Subscription based investment tracking application.
 <div>
-<img src=""/>
+<!-- <img src=""/> -->
 </div>
 </div>
 
